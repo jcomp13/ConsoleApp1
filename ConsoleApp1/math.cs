@@ -8,12 +8,6 @@ namespace ConsoleApp1
 {
     internal class math
     {
-        internal int add()
-        {
-            var x1 = 1;
-            var x2 = 2;
-            int sum = x1 + x2;
-            return sum;
-        }
+        internal double add( double x1, double x2) => x1 + x2;
     }
 }
